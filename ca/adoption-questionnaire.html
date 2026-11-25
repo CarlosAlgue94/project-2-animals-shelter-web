@@ -11,53 +11,68 @@
         <div id="nav-container">
             <nav id="nav-header">
                 <div id="section-buttons-container">
+                    <a href="index.html" class="section-button">Inici</a>
                     <a href="adopt.html" class="section-button">Adopta</a>
                     <a href="stories.html" class="section-button">Històries amb llar</a>
                     <a href="events.html" class="section-button">Activitats i esdeveniments</a>
                 </div>
                 <div id="language-picker-container">
-                    <a href="index.html" class="language-button">Català</a>
-                    <a href="../index.html" class="language-button">Anglès</a>
-                    <a href="../es/index.html" class="language-button">Castellà</a>
+                    <a href="adoption-questionnaire.html" class="language-button">Català</a>
+                    <a href="../adoption-questionnaire.html" class="language-button">Anglès</a>
+                    <a href="../es/adoption-questionnaire.html" class="language-button">Castellà</a>
                 </div>
             </nav>  
         </div>
     </header>
     <main>
-        <section id="about-us">
-            <h2>Una llar ho canvia tot</h2>
-            <p>A Nous Colls creiem que l’afecte es demostra amb fets. Som un refugi envoltat de natura on gossos i gats abandonats o en situació vulnerable recuperen la calma, reben les cures que necessiten i esperen l'oportunitat de formar part d'una família que els estimi. Sense presses i amb molt d'afecte, treballem cada dia per crear vincles reals entre persones i animals.</p>
-            <button>Coneix els nostres peluts</button>   
-        </section>
-
-        <section id="mission-values-vision">
-            <h2>El que ens mou</h2>
-            <p>Missió: Oferir una segona oportunitat als animals abandonats o en situació vulnerable a través de les cures, el benestar i l’adopció responsable. Treballem cada dia perquè cada gos i cada gat recuperi la confiança i trobi una família que l’estimi per sempre.</p>
-            <p>Valors: Respecte profund pels animals i per la natura que ens envolta, calidesa de llar, responsabilitat i proximitat afectiva en cada gest i cada adopció.</p>
-            <p>Visió: Transformar la mirada de la societat cap a un model on cada animal sigui reconegut pel que és: un ésser viu amb sentiments, dret a ser estimat i respectat com un membre més de la família.</p>
-        </section>
-        
-        <section id="upcoming-events">
-            <h2>Pròximes trobades a Nous Colls</h2>
-            <p>Vine a compartir temps amb nosaltres, coneix els nostres peluts en un entorn natural i descobreix com formar part d'aquesta família.</p>
-            <article id="upcoming-event-1">
-                <h3>Caminada solidària pel bosc</h3>
-                <p>Data i lloc: Diumenge, 15 de novembre · 10:00 h · Entorn natural de Nous Colls</p>
-                <p>Descripció: Una passejada tranquil·la en plena natura acompanyats d'alguns dels nostres gossos. Una oportunitat ideal per gaudir de l'aire lliure, conèixer la tasca dels voluntaris i regalar-los una estona d'esbarjo i companyia.</p>
-                <button>Vull apuntar-m'hi</button>    
-            </article>
-            <article id="upcoming-event-2">
-                <h3>Jornada de portes obertes i adopció responsable</h3>
-                <p>Data i lloc: Dissabte, 28 de novembre · D'11:00 h a 17:00 h · Refugi Nous Colls</p>
-                <p>Descripció: Obre la porta a una nova història. Vine a conèixer de prop els gossos i gats que busquen una llar, conversa sense presses amb el nostre equip de cuidadors i resol tots els teus dubtes sobre el procés d'adopció.</p>
-                <button>Reserva la teva visita</button>
-            </article>
-            <article id="upcoming-event-3">
-                <h3>Taller familiar: Com entendre el llenguatge dels animals</h3>
-                <p>Data i lloc: Diumenge, 13 de desembre · 11:30 h · Aula de Natura Nous Colls</p>
-                <p>Descripció: Una sessió pràctica i propera per a grans i petits on aprendrem a interpretar com es comuniquen els gossos i els gats, fomentant el respecte, l'empatia i la convivència harmònica a casa.</p>
-                <button>Inscriu-t'hi</button> 
-            </article>
+        <section id="adoption-form-section">
+            <h2>Qüestionari d'adopció</h2>
+            <p>Explicar-nos una mica com és casa teva i la teva rutina diària ens ajuda a trobar el company que millor encaixi amb tu. No hi ha respostes correctes ni incorrectes, només compatibilitats reals.</p>
+            <form id="adoption-form" method="post">
+                <fieldset id="about-you-fieldset">
+                    <legend>Dades personals</legend>
+                    <label for="name">Nom i cognoms:</label>
+                    <input type="text" id="name" name="name" placeholder="El teu nom i cognoms" required>
+                    <label for="email">Correu electrònic:</label>
+                    <input type="email" id="email" name="email" placeholder="El teu correu electrònic" required>
+                    <label for="phone">Telèfon de contacte:</label>
+                    <input type="tel" id="phone" name="phone" placeholder="El teu número de telèfon" required>
+                    <label for="city-town">Població:</label>
+                    <input type="text" id="city-town" name="city-town" placeholder="La teva població" required>
+                </fieldset>
+                <fieldset id="home-routines-fieldset">
+                    <legend>La teva llar i rutina</legend>
+                    <label for="liked-animal">Quin pelut t'ha cridat l'atenció? (Opcional — deixa-ho en blanc si vols que t'orientem)</label>
+                    <input type="text" id="liked-animal" name="liked-animal">
+                    <label for="home-type">Tipus d'habitatge:</label>
+                    <select id="home-type" name="home-type" required>
+                        <option value="" selected>Selecciona una opció</option>
+                        <option value="Apartment">Pis</option>
+                        <option value="House with garden">Casa amb jardí</option>
+                        <option value="Rural House">Casa rural</option>
+                    </select>
+                    <label for="other-residents">Convius amb altres persones o animals? (ex.: infants, altres gossos, gats)</label>
+                    <textarea id="other-residents" name="other-residents" rows="4" cols="50"></textarea>
+                    <label for="alone-hours">Quantes hores al dia passaria sol l'animal de mitjana?</label>
+                    <select id="alone-hours" name="alone-hours" required>
+                        <option value="" selected>Selecciona una opció</option>
+                        <option value="0-3">Menys de 3 hores</option>
+                        <option value="3-6">Entre 3 i 6 hores</option>
+                        <option value="6+">Més de 6 hores</option>
+                    </select>
+                </fieldset>
+                <fieldset id="experience-motivation-fieldset">
+                    <legend>Experiència i motivació</legend>
+                    <p>Has conviscut amb gossos o gats anteriorment?</p>
+                    <label for="previous-experience-yes">Sí</label>
+                    <input type="radio" id="previous-experience-yes" name="previous-experience" value="Yes" required>
+                    <label for="previous-experience-no">No</label>
+                    <input type="radio" id="previous-experience-no" name="previous-experience" value="No" required>
+                    <label for="motivation">Per què t'agradaria adoptar en aquest moment?</label>
+                    <textarea id="motivation" name="motivation" rows="4" cols="50"></textarea>
+                </fieldset>
+                <button type="submit">Envia el qüestionari</button>
+                </form>
         </section>
     </main>
     <footer>
@@ -67,6 +82,7 @@
         </div>
         <div>
             <h3>Explora:</h3>
+            <p><a href="index.html">Inici</a></p>
             <p><a href="adopt.html">Adopta</a></p>
             <p><a href="stories.html">Històries amb llar</a></p>
             <p><a href="events.html">Activitats i esdeveniments</a></p>

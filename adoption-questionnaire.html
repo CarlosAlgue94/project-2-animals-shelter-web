@@ -11,53 +11,68 @@
         <div id="nav-container">
             <nav id="nav-header">
                 <div id="section-buttons-container">
+                    <a href="index.html" class="section-button">Home</a>
                     <a href="adopt.html" class="section-button">Adopt</a>
                     <a href="stories.html" class="section-button">Stories with a home</a>
                     <a href="events.html" class="section-button">Events & activities</a>
                 </div>
                 <div id="language-picker-container">
-                    <a href="./ca/index.html" class="language-button">Catalan</a>
-                    <a href="index.html" class="language-button">English</a>
-                    <a href="./es/index.html" class="language-button">Spanish</a>
+                    <a href="./ca/adoption-questionnaire.html" class="language-button">Catalan</a>
+                    <a href="adoption-questionnaire.html" class="language-button">English</a>
+                    <a href="./es/adoption-questionnaire.html" class="language-button">Spanish</a>
                 </div>
             </nav>    
         </div>
     </header>
     <main>
-        <section id="about-us">
-            <h2>A home changes everything</h2>
-            <p>At Nous Colls, we believe affection is shown through action. We are a nature-surrounded shelter where abandoned or vulnerable dogs and cats find peace, receive the care they need, and wait for the chance to become part of a loving family. Without rushing and with deep warmth, we work every day to build genuine bonds between people and animals.</p>
-            <button>Meet our furry friends</button>
-        </section>
-
-        <section id="mission-values-vision">
-            <h2>What moves us</h2>
-            <p>Mission: To offer a second chance to abandoned or vulnerable animals through dedicated care, well-being, and responsible adoption. We work every day so that every dog and cat regains trust and finds a loving forever family.</p>
-            <p>Values: Deep respect for animals and the nature around us, the warmth of a real home, responsibility, and affectionate closeness in every gesture and every adoption.</p>
-            <p>Vision: To shift society’s perspective toward a world where every animal is recognized for what they truly are: a living being with feelings, the right to be loved, and respected as a full member of the family.</p>
-        </section>
-        
-        <section id="upcoming-events">
-            <h2>Upcoming gatherings at Nous Colls</h2>
-            <p>Come spend time with us, meet our furry friends in a natural setting, and discover how to become part of this family.</p>
-            <article id="upcoming-events-1">
-                <h3>Solidarity forest walk</h3>
-                <p>Date & Location: Sunday, November 15 · 10:00 AM · Nous Colls Natural Surroundings</p>
-                <p>Description: A peaceful walk surrounded by nature alongside some of our dogs. An ideal chance to enjoy the outdoors, learn about our volunteers' work, and give them some quality playtime and company.</p>
-                <button>Count me in</button>    
-            </article>
-            <article id="upcoming-events-2">
-                <h3>Open house & responsible adoption day</h3>
-                <p>Date & Location: Saturday, November 28 · 11:00 AM to 5:00 PM · Nous Colls Shelter</p>
-                <p>Description: Open the door to a new story. Come meet the dogs and cats looking for a home, chat unhurriedly with our care team, and get answers to all your questions about the adoption process.</p>
-                <button>Book your visit</button>
-            </article>
-            <article  id="upcoming-events-3">
-                <h3>Family workshop: Understanding animal body language</h3>
-                <p>Date & Location: Sunday, December 13 · 11:30 AM · Nous Colls Nature Classroom</p>
-                <p>Description: A hands-on, welcoming session for adults and children to learn how dogs and cats communicate, encouraging respect, empathy, and harmonious living at home.</p>
-                <button>Sign up</button> 
-            </article>
+        <section id="adoption-form-section">
+            <h2>Adoption Questionnaire</h2>
+            <p>Telling us a little about your home and daily routine helps us find the companion who will thrive best alongside you. There are no right or wrong answers—only honest matches.</p>
+            <form id="adoption-form" method="post">
+                <fieldset id="about-you-fieldset">
+                    <legend>About you</legend>
+                    <label for="name">Full name:</label>
+                    <input type="text" id="name" name="name" placeholder="Your name goes here" required>
+                    <label for="email">Email address:</label>
+                    <input type="email" id="email" name="email" placeholder="Your email goes here" required>
+                    <label for="phone">Phone number:</label>
+                    <input type="tel" id="phone" name="phone" placeholder="Your phone number goes here" required>
+                    <label for="city-town">City/Town:</label>
+                    <input type="text" id="city-town" name="city-town" placeholder="Your city or town goes here" required>
+                </fieldset>
+                <fieldset id="home-routines-fieldset">
+                    <legend>About your home and routines</legend>
+                    <label for="liked-animal">Which furry friend caught your eye? (Optional — leave blank if you'd like our guidance)</label>
+                    <input type="text" id="liked-animal" name="liked-animal">
+                    <label for="home-type">Type of home:</label>
+                    <select id="home-type" name="home-type" required>
+                        <option value="">Select an option</option>
+                        <option value="Apartment">Apartment</option>
+                        <option value="House with garden">House with garden</option>
+                        <option value="Rural House">Rural House</option>
+                    </select>
+                    <label for="other-residents">Do you live with other people or animals? (e.g., children, other dogs, cats)</label>
+                    <textarea id="other-residents" name="other-residents" rows="4" cols="50"></textarea>
+                    <label for="alone-hours">How many hours a day would the animal spend alone on average?</label>
+                    <select id="alone-hours" name="alone-hours" required>
+                        <option value="">Select an option</option>
+                        <option value="0-3">Less than 3 hours</option>
+                        <option value="3-6">3 to 6 hours</option>
+                        <option value="6+">More than 6 hours</option>
+                    </select>
+                </fieldset>
+                <fieldset id="experience-motivation-fieldset">
+                    <legend>Experience and motivation</legend>
+                    <p>Have you shared your life with dogs or cats before?</p>
+                    <label for="previous-experience-yes">Yes</label>
+                    <input type="radio" id="previous-experience-yes" name="previous-experience" value="Yes" required>
+                    <label for="previous-experience-no">No</label>
+                    <input type="radio" id="previous-experience-no" name="previous-experience" value="No" required>
+                    <label for="motivation">Why would you like to adopt right now?</label>
+                    <textarea id="motivation" name="motivation" rows="4" cols="50"></textarea>
+                </fieldset>
+                <button type="submit">Submit Questionnaire</button>
+                </form>
         </section>
     </main>
     <footer>
@@ -67,6 +82,7 @@
         </div>
         <div>
             <h3>Explore:</h3>
+            <p><a href="index.html">Home</a></p>
             <p><a href="adopt.html">Adopt</a></p>
             <p><a href="stories.html">Stories with a home</a></p>
             <p><a href="events.html">Events & activities</a></p>
