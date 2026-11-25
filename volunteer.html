@@ -11,53 +11,74 @@
         <div id="nav-container">
             <nav id="nav-header">
                 <div id="section-buttons-container">
+                    <a href="index.html" class="section-button">Home</a>
                     <a href="adopt.html" class="section-button">Adopt</a>
                     <a href="stories.html" class="section-button">Stories with a home</a>
                     <a href="events.html" class="section-button">Events & activities</a>
+                    <a href="volunteer.html" class="section-button">Become a volunteer</a>
                 </div>
                 <div id="language-picker-container">
-                    <a href="./ca/index.html" class="language-button">Catalan</a>
-                    <a href="index.html" class="language-button">English</a>
-                    <a href="./es/index.html" class="language-button">Spanish</a>
+                    <a href="./ca/volunteer.html" class="language-button">Catalan</a>
+                    <a href="volunteer.html" class="language-button">English</a>
+                    <a href="./es/volunteer.html" class="language-button">Spanish</a>
                 </div>
             </nav>    
         </div>
     </header>
     <main>
-        <section id="about-us">
-            <h2>A home changes everything</h2>
-            <p>At Nous Colls, we believe affection is shown through action. We are a nature-surrounded shelter where abandoned or vulnerable dogs and cats find peace, receive the care they need, and wait for the chance to become part of a loving family. Without rushing and with deep warmth, we work every day to build genuine bonds between people and animals.</p>
-            <button>Meet our furry friends</button>
+        <section id="volunteer-header">
+            <h2>Become a volunteer</h2>
+            <p>Hands, time, and affection are what keep Nous Colls alive. Whether you can come once a week or help out at occasional events, your presence makes a real difference in our animals' daily well-being.</p>
         </section>
 
-        <section id="mission-values-vision">
-            <h2>What moves us</h2>
-            <p>Mission: To offer a second chance to abandoned or vulnerable animals through dedicated care, well-being, and responsible adoption. We work every day so that every dog and cat regains trust and finds a loving forever family.</p>
-            <p>Values: Deep respect for animals and the nature around us, the warmth of a real home, responsibility, and affectionate closeness in every gesture and every adoption.</p>
-            <p>Vision: To shift society’s perspective toward a world where every animal is recognized for what they truly are: a living being with feelings, the right to be loved, and respected as a full member of the family.</p>
+        <section id="volunteer-activities">
+            <h2>How can you help at the shelter?</h2>
+            <ul>
+                <li>Forest walks & socialization — Accompany our dogs on calm walks through the surrounding woods, helping them exercise, build trust, and enjoy human company.</li>
+                <li>Daily care & shelter upkeep — Help keep kennels, cat areas, and green spaces clean, fresh, and comfortable so every furry friend feels safe.</li>
+                <li>Events, photography & outreach — Support us during open days, take natural portraits for adoption profiles, or help spread the word on social media.</li>
+            </ul>
         </section>
-        
-        <section id="upcoming-events">
-            <h2>Upcoming gatherings at Nous Colls</h2>
-            <p>Come spend time with us, meet our furry friends in a natural setting, and discover how to become part of this family.</p>
-            <article id="upcoming-events-1">
-                <h3>Solidarity forest walk</h3>
-                <p>Date & Location: Sunday, November 15 · 10:00 AM · Nous Colls Natural Surroundings</p>
-                <p>Description: A peaceful walk surrounded by nature alongside some of our dogs. An ideal chance to enjoy the outdoors, learn about our volunteers' work, and give them some quality playtime and company.</p>
-                <button>Count me in</button>    
-            </article>
-            <article id="upcoming-events-2">
-                <h3>Open house & responsible adoption day</h3>
-                <p>Date & Location: Saturday, November 28 · 11:00 AM to 5:00 PM · Nous Colls Shelter</p>
-                <p>Description: Open the door to a new story. Come meet the dogs and cats looking for a home, chat unhurriedly with our care team, and get answers to all your questions about the adoption process.</p>
-                <button>Book your visit</button>
-            </article>
-            <article  id="upcoming-events-3">
-                <h3>Family workshop: Understanding animal body language</h3>
-                <p>Date & Location: Sunday, December 13 · 11:30 AM · Nous Colls Nature Classroom</p>
-                <p>Description: A hands-on, welcoming session for adults and children to learn how dogs and cats communicate, encouraging respect, empathy, and harmonious living at home.</p>
-                <button>Sign up</button> 
-            </article>
+
+        <section id="volunteer-form-questionnaire">
+            <h2>Join our volunteer team</h2>
+            <p>Fill out our volunteer form, and we'll get in touch to discuss your availability, interests, and the best way for you to contribute. We welcome all levels of experience and commitment.</p>
+            <form id="volunteer-form" method="post">
+                <fieldset id="about-you-fieldset">
+                    <legend>About you</legend>
+                    <label for="volunteer-name">Full name:</label>
+                    <input type="text" id="volunteer-name" name="volunteer-name" placeholder="Your full name" required>
+                    <label for="volunteer-email">Email address:</label>
+                    <input type="email" id="volunteer-email" name="volunteer-email" placeholder="Your email address" required>
+                    <label for="volunteer-phone">Phone number:</label>
+                    <input type="tel" id="volunteer-phone" name="volunteer-phone" placeholder="Your phone number" required>
+                    <label for="volunteer-age">Age (must be 18 or older to volunteer independently)</label>
+                    <input type="number" id="volunteer-age" name="volunteer-age" min="18" required>
+                </fieldset>
+                <fieldset id="availability-interests-fieldset">
+                    <legend>Availability and interests</legend>
+                    <p>Which areas would you like to help with?</p>
+                    <label for="volunteer-areas-1">Forest walks & socialization</label>
+                    <input type="checkbox" id="volunteer-areas-1" name="volunteer-areas" value="forest-walking-socialization">
+                    <label for="volunteer-areas-2">Daily care & cleaning</label>
+                    <input type="checkbox" id="volunteer-areas-2" name="volunteer-areas" value="daily-care">
+                    <label for="volunteer-areas-3">Events & workshops</label>
+                    <input type="checkbox" id="volunteer-areas-3" name="volunteer-areas" value="events-workshops">
+                    <label for="volunteer-areas-4">Photography & social media</label>
+                    <input type="checkbox" id="volunteer-areas-4" name="volunteer-areas" value="photography-social-media">
+                    <label for="volunteer-availability">When are you usually available?</label>
+                    <select id="volunteer-availability" name="volunteer-availability" required>
+                        <option value="" selected>Select an option</option>
+                        <option value="weekday-morning">Weekday mornings</option>
+                        <option value="weekday-afternoon">Weekday afternoons</option>
+                        <option value="weekend">Weekends</option>
+                        <option value="occasional-events-only">Occasional events only</option>
+                    </select>
+                    <label for="volunteer-experience">Tell us a bit about yourself and any experience with animals:</label>
+                    <textarea id="volunteer-experience" name="volunteer-experience" placeholder="Share your background and interests..." required></textarea>
+                </fieldset>
+                <button type="submit">Send application</button>
+            </form>
         </section>
     </main>
     <footer>
@@ -67,6 +88,7 @@
         </div>
         <div>
             <h3>Explore:</h3>
+            <p><a href="index.html">Home</a></p>
             <p><a href="adopt.html">Adopt</a></p>
             <p><a href="stories.html">Stories with a home</a></p>
             <p><a href="events.html">Events & activities</a></p>

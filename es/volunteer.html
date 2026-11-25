@@ -11,53 +11,74 @@
         <div id="nav-container">
             <nav id="nav-header">
                 <div id="section-buttons-container">
+                    <a href="index.html" class="section-button">Inicio</a>
                     <a href="adopt.html" class="section-button">Adopta</a>
                     <a href="stories.html" class="section-button">Historias con hogar</a>
                     <a href="events.html" class="section-button">Actividades y eventos</a>
+                    <a href="volunteer.html" class="section-button">Hazte voluntario/a</a>
                 </div>
                 <div id="language-picker-container">
-                    <a href="../ca/index.html" class="language-button">Catalán</a>
-                    <a href="../index.html" class="language-button">Inglés</a>
-                    <a href="index.html" class="language-button">Castellano</a>
+                    <a href="../ca/volunteer.html" class="language-button">Catalán</a>
+                    <a href="../volunteer.html" class="language-button">Inglés</a>
+                    <a href="volunteer.html" class="language-button">Castellano</a>
                 </div>
             </nav>    
         </div>
     </header>
     <main>
-        <section id="about-us">
-            <h2>Un hogar lo cambia todo</h2>
-            <p>En Nous Colls creemos que el afecto se demuestra con hechos. Somos un refugio rodeado de naturaleza donde perros y gatos abandonados o en situación vulnerable recuperan la calma, reciben los cuidados que necesitan y esperan la oportunidad de formar parte de una familia que los quiera. Sin prisas y con mucho cariño, trabajamos cada día para crear vínculos reales entre personas y animales.</p>
-            <button>Conoce a nuestros peludos</button>
+        <section id="volunteer-header">
+            <h2>Hazte voluntario/a</h2>
+            <p>Manos, tiempo y afecto son lo que mantiene vivo a Nous Colls. Tanto si puedes venir una vez por semana como si nos echas una mano en eventos puntuales, tu presencia marca una diferencia real en el bienestar diario de nuestros animales.</p>
         </section>
 
-        <section id="mission-values-vision">
-            <h2>Lo que nos mueve</h2>
-            <p>Misión: Ofrecer una segunda oportunidad a los animales abandonados o en situación vulnerable a través de los cuidados, el bienestar y la adopción responsable. Trabajamos cada día para que cada perro y cada gato recupere la confianza y encuentre una familia que lo quiera para siempre.</p>
-            <p>Valores: Respeto profundo por los animales y por la naturaleza que nos rodea, calidez de hogar, responsabilidad y cercanía afectiva en cada gesto y cada adopción.</p>
-            <p>Visión: Transformar la mirada de la sociedad hacia un modelo donde cada animal sea reconocido por lo que es: un ser vivo con sentimientos, derecho a ser querido y respetado como un miembro más de la familia.</p>
+        <section id="volunteer-activities">
+            <h2>¿Cómo puedes ayudar en el refugio?</h2>
+            <ul>
+                <li>Paseos por el bosque y socialización — Acompaña a nuestros perros en paseos tranquilos por el entorno forestal, ayudándoles a hacer ejercicio, ganar confianza y disfrutar de compañía humana.</li>
+                <li>Cuidados diarios y mantenimiento — Ayuda a mantener los espacios de los perros, la gatera y las zonas verdes limpios, ordenados y acogedores para que cada peludo se sienta seguro.</li>
+                <li>Eventos, fotografía y difusión — Apoya durante las jornadas de puertas abiertas, haz retratos naturales para las fichas de adopción o ayúdanos a difundir en redes sociales.</li>
+            </ul>
         </section>
-        
-        <section id="upcoming-events">
-            <h2>Próximos encuentros en Nous Colls</h2>
-            <p>Ven a compartir tiempo con nosotros, conoce a nuestros peludos en un entorno natural y descubre cómo formar parte de esta familia.</p>
-            <article id="upcoming-events-1">
-                <h3>Caminata solidaria por el bosque</h3>
-                <p>Fecha y lugar: Domingo, 15 de noviembre · 10:00 h · Entorno natural de Nous Colls</p>
-                <p>Descripción: Un paseo tranquilo en plena naturaleza acompañados de algunos de nuestros perros. Una oportunidad ideal para disfrutar del aire libre, conocer la labor de los voluntarios y regalarles un rato de ejercicio y compañía.</p>
-                <button>Quiero apuntarme</button>    
-            </article>
-            <article id="upcoming-events-2">
-                <h3>Jornada de puertas abiertas y adopción responsable</h3>
-                <p>Fecha y lugar: Sábado, 28 de noviembre · De 11:00 h a 17:00 h · Refugio Nous Colls</p>
-                <p>Descripción: Abre la puerta a una nueva historia. Ven a conocer de cerca a los perros y gatos que buscan un hogar, conversa sin prisas con nuestro equipo de cuidadores y resuelve todas tus dudas sobre el proceso de adopción.</p>
-                <button>Reserva tu visita</button>
-            </article>
-            <article id="upcoming-events-3">
-                <h3>Taller familiar: Cómo entender el lenguaje de los animales</h3>
-                <p>Fecha y lugar: Domingo, 13 de diciembre · 11:30 h · Aula de Naturaleza Nous Colls</p>
-                <p>Descripción: Una sesión práctica y cercana para grandes y pequeños donde aprenderemos a interpretar cómo se comunican los perros y los gatos, fomentando el respeto, la empatía y la convivencia armónica en casa.</p>
-                <button>Inscríbete</button> 
-            </article>
+
+        <section id="volunteer-form-questionnaire">
+            <h2>Únete al equipo de voluntariado</h2>
+            <p>Rellena nuestro formulario de voluntariado y nos pondremos en contacto contigo para hablar de tu disponibilidad, tus intereses y la mejor manera de colaborar. Damos la bienvenida a todos los niveles de experiencia y compromiso.</p>
+            <form id="volunteer-form" method="post">
+                <fieldset id="about-you-fieldset">
+                    <legend>Datos personales</legend>
+                    <label for="volunteer-name">Nombre y apellidos:</label>
+                    <input type="text" id="volunteer-name" name="volunteer-name" placeholder="Tu nombre y apellidos" required>
+                    <label for="volunteer-email">Correo electrónico:</label>
+                    <input type="email" id="volunteer-email" name="volunteer-email" placeholder="Tu correo electrónico" required>
+                    <label for="volunteer-phone">Teléfono de contacto:</label>
+                    <input type="tel" id="volunteer-phone" name="volunteer-phone" placeholder="Tu número de teléfono" required>
+                    <label for="volunteer-age">Edad (es necesario tener 18 años o más para hacer voluntariado de forma autónoma)</label>
+                    <input type="number" id="volunteer-age" name="volunteer-age" min="18" required>
+                </fieldset>
+                <fieldset id="availability-interests-fieldset">
+                    <legend>Disponibilidad e intereses</legend>
+                    <p>¿En qué áreas te gustaría colaborar?</p>
+                    <label for="volunteer-areas-1">Paseos por el bosque y socialización</label>
+                    <input type="checkbox" id="volunteer-areas-1" name="volunteer-areas" value="forest-walking-socialization">
+                    <label for="volunteer-areas-2">Cuidados diarios y limpieza</label>
+                    <input type="checkbox" id="volunteer-areas-2" name="volunteer-areas" value="daily-care">
+                    <label for="volunteer-areas-3">Eventos y talleres</label>
+                    <input type="checkbox" id="volunteer-areas-3" name="volunteer-areas" value="events-workshops">
+                    <label for="volunteer-areas-4">Fotografía y redes sociales</label>
+                    <input type="checkbox" id="volunteer-areas-4" name="volunteer-areas" value="photography-social-media">
+                    <label for="volunteer-availability">¿Qué disponibilidad tienes habitualmente?</label>
+                    <select id="volunteer-availability" name="volunteer-availability" required>
+                        <option value="" selected>Selecciona una opción</option>
+                        <option value="weekday-morning">Mañanas entre semana</option>
+                        <option value="weekday-afternoon">Tardes entre semana</option>
+                        <option value="weekend">Fines de semana</option>
+                        <option value="occasional-events-only">Solo eventos puntuales</option>
+                    </select>
+                    <label for="volunteer-experience">Cuéntanos un poco sobre ti y si tienes experiencia con animales:</label>
+                    <textarea id="volunteer-experience" name="volunteer-experience" placeholder="Cuéntanos un poco tu experiencia y tus intereses..." required></textarea>
+                </fieldset>
+                <button type="submit">Enviar solicitud</button>
+            </form>
         </section>
     </main>
     <footer>
@@ -67,6 +88,7 @@
         </div>
         <div>
             <h3>Explora:</h3>
+            <p><a href="index.html">Inicio</a></p>
             <p><a href="adopt.html">Adopta</a></p>
             <p><a href="stories.html">Historias con hogar</a></p>
             <p><a href="events.html">Actividades y eventos</a></p>

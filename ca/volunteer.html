@@ -11,53 +11,74 @@
         <div id="nav-container">
             <nav id="nav-header">
                 <div id="section-buttons-container">
+                    <a href="index.html" class="section-button">Inici</a>
                     <a href="adopt.html" class="section-button">Adopta</a>
                     <a href="stories.html" class="section-button">Històries amb llar</a>
                     <a href="events.html" class="section-button">Activitats i esdeveniments</a>
+                    <a href="volunteer.html" class="section-button">Fes-te voluntari/ària</a>
                 </div>
                 <div id="language-picker-container">
-                    <a href="index.html" class="language-button">Català</a>
-                    <a href="../index.html" class="language-button">Anglès</a>
-                    <a href="../es/index.html" class="language-button">Castellà</a>
+                    <a href="volunteer.html" class="language-button">Català</a>
+                    <a href="../volunteer.html" class="language-button">Anglès</a>
+                    <a href="../es/volunteer.html" class="language-button">Castellà</a>
                 </div>
             </nav>  
         </div>
     </header>
     <main>
-        <section id="about-us">
-            <h2>Una llar ho canvia tot</h2>
-            <p>A Nous Colls creiem que l’afecte es demostra amb fets. Som un refugi envoltat de natura on gossos i gats abandonats o en situació vulnerable recuperen la calma, reben les cures que necessiten i esperen l'oportunitat de formar part d'una família que els estimi. Sense presses i amb molt d'afecte, treballem cada dia per crear vincles reals entre persones i animals.</p>
-            <button>Coneix els nostres peluts</button>   
+        <section id="volunteer-header">
+            <h2>Fes-te voluntari/ària</h2>
+            <p>Mans, temps i afecte són el que manté viu Nous Colls. Tant si pots venir un cop per setmana com si ens dones un cop de mà en esdeveniments puntuals, la teva presència marca una diferència real en el benestar diari dels nostres animals.</p>
         </section>
 
-        <section id="mission-values-vision">
-            <h2>El que ens mou</h2>
-            <p>Missió: Oferir una segona oportunitat als animals abandonats o en situació vulnerable a través de les cures, el benestar i l’adopció responsable. Treballem cada dia perquè cada gos i cada gat recuperi la confiança i trobi una família que l’estimi per sempre.</p>
-            <p>Valors: Respecte profund pels animals i per la natura que ens envolta, calidesa de llar, responsabilitat i proximitat afectiva en cada gest i cada adopció.</p>
-            <p>Visió: Transformar la mirada de la societat cap a un model on cada animal sigui reconegut pel que és: un ésser viu amb sentiments, dret a ser estimat i respectat com un membre més de la família.</p>
+        <section id="volunteer-activities">
+            <h2>Com pots ajudar al refugi?</h2>
+            <ul>
+                <li>Passejades pel bosc i socialització — Acompanya els nostres gossos en passejades tranquil·les per l'entorn forestal, ajudant-los a fer exercici, guanyar confiança i gaudir de companyia humana.</li>
+                <li>Cures diàries i manteniment — Ajuda a mantenir els espais dels gossos, la gatera i les zones verdes nets, endreçats i acollidors perquè cada pelut se senti segur.</li>
+                <li>Esdeveniments, fotografia i difusió — Dóna suport durant les jornades de portes obertes, fes retrats naturals per a les fitxes d'adopció o ajuda'ns a fer difusió a les xarxes.</li>
+            </ul>
         </section>
-        
-        <section id="upcoming-events">
-            <h2>Pròximes trobades a Nous Colls</h2>
-            <p>Vine a compartir temps amb nosaltres, coneix els nostres peluts en un entorn natural i descobreix com formar part d'aquesta família.</p>
-            <article id="upcoming-event-1">
-                <h3>Caminada solidària pel bosc</h3>
-                <p>Data i lloc: Diumenge, 15 de novembre · 10:00 h · Entorn natural de Nous Colls</p>
-                <p>Descripció: Una passejada tranquil·la en plena natura acompanyats d'alguns dels nostres gossos. Una oportunitat ideal per gaudir de l'aire lliure, conèixer la tasca dels voluntaris i regalar-los una estona d'esbarjo i companyia.</p>
-                <button>Vull apuntar-m'hi</button>    
-            </article>
-            <article id="upcoming-event-2">
-                <h3>Jornada de portes obertes i adopció responsable</h3>
-                <p>Data i lloc: Dissabte, 28 de novembre · D'11:00 h a 17:00 h · Refugi Nous Colls</p>
-                <p>Descripció: Obre la porta a una nova història. Vine a conèixer de prop els gossos i gats que busquen una llar, conversa sense presses amb el nostre equip de cuidadors i resol tots els teus dubtes sobre el procés d'adopció.</p>
-                <button>Reserva la teva visita</button>
-            </article>
-            <article id="upcoming-event-3">
-                <h3>Taller familiar: Com entendre el llenguatge dels animals</h3>
-                <p>Data i lloc: Diumenge, 13 de desembre · 11:30 h · Aula de Natura Nous Colls</p>
-                <p>Descripció: Una sessió pràctica i propera per a grans i petits on aprendrem a interpretar com es comuniquen els gossos i els gats, fomentant el respecte, l'empatia i la convivència harmònica a casa.</p>
-                <button>Inscriu-t'hi</button> 
-            </article>
+
+        <section id="volunteer-form-questionnaire">
+            <h2>Uneix-te a l'equip de voluntariat</h2>
+            <p>Omple el nostre formulari de voluntariat i ens posarem en contacte amb tu per parlar de la teva disponibilitat, els teus interessos i la millor manera de col·laborar. Donem la benvinguda a tots els nivells d'experiència i compromís.</p>
+            <form id="volunteer-form" method="post">
+                <fieldset id="about-you-fieldset">
+                    <legend>Dades personals</legend>
+                    <label for="volunteer-name">Nom i cognoms:</label>
+                    <input type="text" id="volunteer-name" name="volunteer-name" placeholder="El teu nom i cognoms" required>
+                    <label for="volunteer-email">Correu electrònic:</label>
+                    <input type="email" id="volunteer-email" name="volunteer-email" placeholder="El teu correu electrònic" required>
+                    <label for="volunteer-phone">Telèfon de contacte:</label>
+                    <input type="tel" id="volunteer-phone" name="volunteer-phone" placeholder="El teu número de telèfon" required>
+                    <label for="volunteer-age">Edat (cal tenir 18 anys o més per fer voluntariat de manera autònoma)</label>
+                    <input type="number" id="volunteer-age" name="volunteer-age" min="18" required>
+                </fieldset>
+                <fieldset id="availability-interests-fieldset">
+                    <legend>Disponibilitat i interessos</legend>
+                    <p>En quines àrees t'agradaria col·laborar?</p>
+                    <label for="volunteer-areas-1">Passejades pel bosc i socialització</label>
+                    <input type="checkbox" id="volunteer-areas-1" name="volunteer-areas" value="forest-walking-socialization">
+                    <label for="volunteer-areas-2">Cures diàries i neteja</label>
+                    <input type="checkbox" id="volunteer-areas-2" name="volunteer-areas" value="daily-care">
+                    <label for="volunteer-areas-3">Esdeveniments i tallers</label>
+                    <input type="checkbox" id="volunteer-areas-3" name="volunteer-areas" value="events-workshops">
+                    <label for="volunteer-areas-4">Fotografia i xarxes socials</label>
+                    <input type="checkbox" id="volunteer-areas-4" name="volunteer-areas" value="photography-social-media">
+                    <label for="volunteer-availability">Quina disponibilitat tens habitualment?</label>
+                    <select id="volunteer-availability" name="volunteer-availability" required>
+                        <option value="" selected>Selecciona una opció</option>
+                        <option value="weekday-morning">Matins entre setmana</option>
+                        <option value="weekday-afternoon">Tardes entre setmana</option>
+                        <option value="weekend">Caps de setmana</option>
+                        <option value="occasional-events-only">Només esdeveniments puntuals</option>
+                    </select>
+                    <label for="volunteer-experience">Explica'ns una mica sobre tu i si tens experiència amb animals:</label>
+                    <textarea id="volunteer-experience" name="volunteer-experience" placeholder="Explica'ns una mica la teva experiència i els teus interessos..." required></textarea>
+                </fieldset>
+                <button type="submit">Envia la sol·licitud</button>
+            </form>
         </section>
     </main>
     <footer>
@@ -67,6 +88,7 @@
         </div>
         <div>
             <h3>Explora:</h3>
+            <p><a href="index.html">Inici</a></p>
             <p><a href="adopt.html">Adopta</a></p>
             <p><a href="stories.html">Històries amb llar</a></p>
             <p><a href="events.html">Activitats i esdeveniments</a></p>
