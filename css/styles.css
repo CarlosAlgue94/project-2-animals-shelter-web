@@ -1,12 +1,9 @@
-/* =========================================
-   1. VARIABLES Y RESET BASE
-   ========================================= */
 :root {
-    --color-primary: #2d4c3e;       /* Verde bosque */
+    --color-primary: #2d4c3e;
     --color-primary-dark: #1f352b;
-    --color-accent: #c86d51;        /* Terracota cálida */
+    --color-accent: #c86d51;
     --color-accent-hover: #b05a3f;
-    --color-bg: #f9f7f2;            /* Crema natural */
+    --color-bg: #f9f7f2;
     --color-surface: #ffffff;
     --color-text: #2b2d2c;
     --color-text-muted: #5c635f;
@@ -49,9 +46,6 @@ a {
     display: none !important;
 }
 
-/* =========================================
-   2. CABECERA Y NAVEGACIÓN
-   ========================================= */
 header {
     background-color: var(--color-primary);
     color: #ffffff;
@@ -112,9 +106,6 @@ header {
     color: var(--color-primary);
 }
 
-/* =========================================
-   3. CONTENIDO PRINCIPAL Y SECCIONES
-   ========================================= */
 main {
     flex: 1;
     width: 100%;
@@ -156,7 +147,6 @@ section li {
     margin-bottom: 0.45rem;
 }
 
-/* Botones CTA */
 .cta-button,
 main > section > a[href*="questionnaire"],
 main > section > a[href*="adopt"],
@@ -179,9 +169,6 @@ main > section > a[href*="volunteer"]:hover {
     color: #ffffff;
 }
 
-/* =========================================
-   4. FILTRO Y CUADRÍCULA DE ADOPCIONES / HISTORIAS
-   ========================================= */
 #filter-container {
     background-color: var(--color-surface);
     border: 1px solid var(--color-border);
@@ -276,9 +263,6 @@ main > section > a[href*="volunteer"]:hover {
     margin-bottom: 0.75rem;
 }
 
-/* =========================================
-   5. FORMULARIOS (ADOPCIÓN Y VOLUNTARIADO)
-   ========================================= */
 form {
     background-color: var(--color-surface);
     border: 1px solid var(--color-border);
@@ -308,9 +292,16 @@ form label {
     font-size: 0.95rem;
 }
 
+label[for*="volunteer-areas"] {
+    display: inline-block;
+    font-weight: 500;
+    margin-right: 0.35rem;
+}
+
 form input[type="text"],
 form input[type="email"],
 form input[type="tel"],
+form input[type="number"],
 form select,
 form textarea {
     width: 100%;
@@ -356,9 +347,6 @@ form button[type="submit"]:hover {
     background-color: var(--color-primary-dark);
 }
 
-/* =========================================
-   6. PIE DE PÁGINA (FOOTER)
-   ========================================= */
 footer {
     background-color: var(--color-primary-dark);
     color: #e4ebe7;
@@ -398,9 +386,6 @@ footer .cta-button {
     text-decoration: none;
 }
 
-/* =========================================
-   7. RESPONSIVE MÓVIL
-   ========================================= */
 @media (max-width: 640px) {
     #header-title {
         font-size: 1.45rem;
