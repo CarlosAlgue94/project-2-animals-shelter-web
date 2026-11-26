@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mascotes SYSTEM "mascotes.dtd">
+
+<mascotes>
+
+  <mascota id-mascota="m1" sexe="mascle" tipus-de-cabell="curt">
+    <xip-mascota>981098100123456</xip-mascota>
+    <data-naixement>2021-04-12</data-naixement>
+    <te-pedigri>false</te-pedigri>
+    <pes-mascota>4.5</pes-mascota>
+    <nom-mascota>Thor</nom-mascota>
+    <color-mascota>Atigrat</color-mascota>
+    <foto-mascota>thor_cat.jpg</foto-mascota>
+    <vacunes-mascota>
+      <vacuna id-mascota-vacunada="m1" laboratori="Hipra">
+        <nom-vacuna>Trivalent felina</nom-vacuna>
+        <data-anterior-administracio>2025-05-10</data-anterior-administracio>
+        <data-propera-administracio>2026-05-10</data-propera-administracio>
+      </vacuna>
+      <vacuna id-mascota-vacunada="m1">
+        <nom-vacuna>Antiràbica felina</nom-vacuna>
+        <data-anterior-administracio>2024-06-15</data-anterior-administracio>
+      </vacuna>
+    </vacunes-mascota>
+    <visites-mascota>
+      <visita id-mascota-visitada="m1">
+        <data-visita>2026-02-14</data-visita>
+        <motiu-consulta>Revisió anual</motiu-consulta>
+        <diagnostic>Saludable</diagnostic>
+        <tractament>Cap</tractament>
+        <data-alta>2026-02-14</data-alta>
+      </visita>
+    </visites-mascota>
+    <propietari-mascota>
+      <nom-propietari>Joan</nom-propietari>
+      <cognom-propietari>Vila Rossell</cognom-propietari>
+      <adreca>Carrer de Mallorca 234, Barcelona</adreca>
+      <email>joan.vila@email.cat</email>
+      <telefons>
+        <telefon>600112233</telefon>
+      </telefons>
+    </propietari-mascota>
+  </mascota>
+
+  <mascota id-mascota="m2" sexe="femella" tipus-de-cabell="llarg">
+    <xip-mascota>981098100789012</xip-mascota>
+    <data-naixement>2019-11-23</data-naixement>
+    <te-pedigri>true</te-pedigri>
+    <pes-mascota>22.3</pes-mascota>
+    <nom-mascota>Luna</nom-mascota>
+    <color-mascota>Blanc i negre</color-mascota>
+    <foto-mascota>luna_border.jpg</foto-mascota>
+    <vacunes-mascota></vacunes-mascota>
+    <visites-mascota>
+      <visita id-mascota-visitada="m2">
+        <data-visita>2026-03-01</data-visita>
+        <motiu-consulta>Coixesa pota davantera</motiu-consulta>
+        <diagnostic>Esquinç lleu</diagnostic>
+        <tractament>Antiinflamatoris i repòs</tractament>
+        <data-alta>2026-03-08</data-alta>
+      </visita>
+      <visita id-mascota-visitada="m2">
+        <data-visita>2026-09-30</data-visita>
+        <motiu-consulta>Quadre de vòmits i deshidratació</motiu-consulta>
+        <diagnostic>Gastroenteritis severa</diagnostic>
+        <tractament>Fluidoteràpia a la clínica i dieta tova</tractament>
+        <data-alta>-</data-alta>
+      </visita>
+    </visites-mascota>
+    <propietari-mascota>
+      <nom-propietari>Marta</nom-propietari>
+      <cognom-propietari>Sánchez Gómez</cognom-propietari>
+      <adreca>Avinguda Diagonal 45, Barcelona</adreca>
+      <email>marta.sanchez@email.com</email>
+      <telefons>
+        <telefon>611223344</telefon>
+        <telefon>934556677</telefon>
+      </telefons>
+    </propietari-mascota>
+  </mascota>
+
+  <mascota id-mascota="m3" sexe="mascle" tipus-de-cabell="arrissat">
+    <xip-mascota>981098100456123</xip-mascota>
+    <data-naixement>2023-08-05</data-naixement>
+    <te-pedigri>true</te-pedigri>
+    <pes-mascota>8.7</pes-mascota>
+    <nom-mascota>Rocco</nom-mascota>
+    <color-mascota>Marró fosc</color-mascota>
+    <foto-mascota>rocco_poodle.jpg</foto-mascota>
+    <vacunes-mascota>
+      <vacuna id-mascota-vacunada="m3">
+        <nom-vacuna>Polivalent canina</nom-vacuna>
+        <data-anterior-administracio>2025-08-20</data-anterior-administracio>
+      </vacuna>
+    </vacunes-mascota>
+    <visites-mascota>
+      <visita id-mascota-visitada="m3">
+        <data-visita>2026-01-10</data-visita>
+        <motiu-consulta>Otitis oïda dreta</motiu-consulta>
+        <diagnostic>Infecció bacteriana</diagnostic>
+        <tractament>Gotes antibiòtiques durant 5 dies</tractament>
+        <data-alta>2026-01-15</data-alta>
+      </visita>
+      <visita id-mascota-visitada="m3">
+        <data-visita>2026-10-02</data-visita>
+        <motiu-consulta>Postoperatori de castració</motiu-consulta>
+        <diagnostic>Evolució quirúrgica normal</diagnostic>
+        <tractament>Cures diàries de la ferida i collaret isabelí</tractament>
+        <data-alta>-</data-alta>
+      </visita>
+    </visites-mascota>
+    <propietari-mascota>
+      <nom-propietari>Albert</nom-propietari>
+      <cognom-propietari>Puig Font</cognom-propietari>
+      <adreca>Carrer Major 12, Girona</adreca>
+      <email>albert.puig@email.cat</email>
+      <telefons>
+        <telefon>622334455</telefon>
+        <telefon>622998877</telefon>
+      </telefons>
+    </propietari-mascota>
+  </mascota>
+
+  <mascota id-mascota="m4" sexe="femella" tipus-de-cabell="curt">
+    <xip-mascota>981098100321654</xip-mascota>
+    <data-naixement>2026-04-30</data-naixement>
+    <te-pedigri>false</te-pedigri>
+    <pes-mascota>2.1</pes-mascota>
+    <nom-mascota>Cleo</nom-mascota>
+    <color-mascota>Negre fum</color-mascota>
+    <foto-mascota>cleo_cat.jpg</foto-mascota>
+    <vacunes-mascota></vacunes-mascota>
+    <visites-mascota>
+      <visita id-mascota-visitada="m4">
+        <data-visita>2026-09-18</data-visita>
+        <motiu-consulta>Revisions inicials de cadell</motiu-consulta>
+        <diagnostic>Desparasitació interna necessària</diagnostic>
+        <tractament>Administració de xarop antiparasitari</tractament>
+        <data-alta>2026-09-18</data-alta>
+      </visita>
+    </visites-mascota>
+  </mascota>
+</mascotes>
