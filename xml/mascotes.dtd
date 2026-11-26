@@ -1,0 +1,36 @@
+<!ELEMENT mascotes (mascota+)>
+<!ELEMENT mascota (xip-mascota, data-naixement, te-pedigri, pes-mascota, nom-mascota, color-mascota?, foto-mascota, vacunes-mascota, visites-mascota, propietari-mascota?)>
+<!ATTLIST mascota
+    id-mascota ID #REQUIRED
+    sexe (mascle | femella) #REQUIRED
+    tipus-de-cabell (curt | llarg | arrissat) #REQUIRED>
+<!ELEMENT xip-mascota (#PCDATA)>
+<!ELEMENT data-naixement (#PCDATA)>
+<!ELEMENT te-pedigri (#PCDATA)>
+<!ELEMENT pes-mascota (#PCDATA)>
+<!ELEMENT nom-mascota (#PCDATA)>
+<!ELEMENT color-mascota (#PCDATA)>
+<!ELEMENT foto-mascota (#PCDATA)>
+<!ELEMENT vacunes-mascota (vacuna*)>
+<!ELEMENT vacuna (nom-vacuna, data-anterior-administracio, data-propera-administracio?)>
+<!ATTLIST vacuna 
+    id-mascota-vacunada IDREF #REQUIRED
+    laboratori CDATA #IMPLIED>
+<!ELEMENT nom-vacuna (#PCDATA)>
+<!ELEMENT data-anterior-administracio (#PCDATA)>
+<!ELEMENT data-propera-administracio (#PCDATA)>
+<!ELEMENT visites-mascota (visita+)>
+<!ELEMENT visita (data-visita, motiu-consulta, diagnostic, tractament, data-alta)>
+<!ATTLIST visita id-mascota-visitada IDREF #REQUIRED>
+<!ELEMENT data-visita (#PCDATA)>
+<!ELEMENT motiu-consulta (#PCDATA)>
+<!ELEMENT diagnostic (#PCDATA)>
+<!ELEMENT tractament (#PCDATA)>
+<!ELEMENT data-alta (#PCDATA)>
+<!ELEMENT propietari-mascota (nom-propietari, cognom-propietari, adreca, email, telefons)>
+<!ELEMENT nom-propietari (#PCDATA)>
+<!ELEMENT cognom-propietari (#PCDATA)>
+<!ELEMENT adreca (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT telefons (telefon+)>
+<!ELEMENT telefon (#PCDATA)>
