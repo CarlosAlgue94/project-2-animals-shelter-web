@@ -482,4 +482,106 @@
     </propietari-mascota>
   </mascota>
 
+  <mascota id-mascota="adopted-1" sexe="mascle" tipus-de-cabell="curt">
+    <xip-mascota>981098199000001</xip-mascota>
+    <data-naixement>2021-05-14</data-naixement>
+    <te-pedigri>false</te-pedigri>
+    <pes-mascota>19.5</pes-mascota>
+    <nom-mascota>Bimba</nom-mascota>
+    <color-mascota>Canella</color-mascota>
+    <foto-mascota>story-bimba_dog.jpg</foto-mascota>
+    <vacunes-mascota>
+      <vacuna id-mascota-vacunada="adopted-1" laboratori="Zoetis">
+        <nom-vacuna>Polivalent canina</nom-vacuna>
+        <data-anterior-administracio>2026-01-15</data-anterior-administracio>
+      </vacuna>
+    </vacunes-mascota>
+    <visites-mascota>
+      <visita id-mascota-visitada="adopted-1">
+        <data-visita>2025-11-04</data-visita>
+        <motiu-consulta>Estrès sever i por al contacte humà</motiu-consulta>
+        <diagnostic>Ansietat per abandonament recent</diagnostic>
+        <tractament>Socialització progressiva i passejades tranquil·les pel bosc</tractament>
+        <data-alta>2026-02-10</data-alta>
+      </visita>
+    </visites-mascota>
+    <propietari-mascota>
+      <nom-propietari>Alba</nom-propietari>
+      <cognom-propietari>Serra Puig</cognom-propietari>
+      <adreca>Carrer de la Lluna 18, Girona</adreca>
+      <email>alba.serra@email.cat</email>
+      <telefons>
+        <telefon>612345678</telefon>
+      </telefons>
+    </propietari-mascota>
+  </mascota>
+
+  <mascota id-mascota="adopted-2" sexe="femella" tipus-de-cabell="llarg">
+    <xip-mascota>981098199000002</xip-mascota>
+    <data-naixement>2017-09-20</data-naixement>
+    <te-pedigri>false</te-pedigri>
+    <pes-mascota>4.2</pes-mascota>
+    <nom-mascota>Nina</nom-mascota>
+    <color-mascota>Tricolor</color-mascota>
+    <foto-mascota>story-nina_cat.jpg</foto-mascota>
+    <vacunes-mascota>
+      <vacuna id-mascota-vacunada="adopted-2" laboratori="Hipra">
+        <nom-vacuna>Trivalent felina</nom-vacuna>
+        <data-anterior-administracio>2026-03-02</data-anterior-administracio>
+      </vacuna>
+    </vacunes-mascota>
+    <visites-mascota>
+      <visita id-mascota-visitada="adopted-2">
+        <data-visita>2026-01-12</data-visita>
+        <motiu-consulta>Desorientació i pèrdua de gana</motiu-consulta>
+        <diagnostic>Estrès per canvi d'entorn en gat sènior</diagnostic>
+        <tractament>Ambient tranquil i dieta humida adaptada</tractament>
+        <data-alta>2026-03-20</data-alta>
+      </visita>
+    </visites-mascota>
+    <propietari-mascota>
+      <nom-propietari>Clara</nom-propietari>
+      <cognom-propietari>Méndez Soler</cognom-propietari>
+      <adreca>Avinguda de Roma 92, Barcelona</adreca>
+      <email>clara.mendez@email.com</email>
+      <telefons>
+        <telefon>623987654</telefon>
+      </telefons>
+    </propietari-mascota>
+  </mascota>
+
+  <mascota id-mascota="adopted-3" sexe="mascle" tipus-de-cabell="arrissat">
+    <xip-mascota>981098199000003</xip-mascota>
+    <data-naixement>2025-11-10</data-naixement>
+    <te-pedigri>false</te-pedigri>
+    <pes-mascota>11.4</pes-mascota>
+    <nom-mascota>Bruc</nom-mascota>
+    <color-mascota>Negre i foc</color-mascota>
+    <foto-mascota>story-bruc_dog.jpg</foto-mascota>
+    <vacunes-mascota>
+      <vacuna id-mascota-vacunada="adopted-3" laboratori="Virbac">
+        <nom-vacuna>Polivalent canina</nom-vacuna>
+        <data-anterior-administracio>2026-02-18</data-anterior-administracio>
+      </vacuna>
+    </vacunes-mascota>
+    <visites-mascota>
+      <visita id-mascota-visitada="adopted-3">
+        <data-visita>2025-12-22</data-visita>
+        <motiu-consulta>Rescat en camí rural amb desnutrició lleu</motiu-consulta>
+        <diagnostic>Baix pes i desparasitació pendent</diagnostic>
+        <tractament>Pauta nutricional de creixement i desparasitació completa</tractament>
+        <data-alta>2026-04-05</data-alta>
+      </visita>
+    </visites-mascota>
+    <propietari-mascota>
+      <nom-propietari>Pau</nom-propietari>
+      <cognom-propietari>Rovira Mas</cognom-propietari>
+      <adreca>Camí de la Font 7, Vic</adreca>
+      <email>pau.rovira@email.cat</email>
+      <telefons>
+        <telefon>634567890</telefon>
+      </telefons>
+    </propietari-mascota>
+  </mascota>
+
 </mascotes>

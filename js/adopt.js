@@ -25,7 +25,8 @@ document.addEventListener("DOMContentLoaded", async () => {
         const mascotes = xmlDoc.querySelectorAll("mascota");
 
         mascotes.forEach((m) => {
-            const id = m.getAttribute("id-mascota");
+            const id = m.getAttribute("id-mascota") || "";
+            if (id.startsWith("adopted-")) return;
             const sexe = m.getAttribute("sexe");
             const nom = m.querySelector("nom-mascota")?.textContent || "";
             const foto = m.querySelector("foto-mascota")?.textContent || "";
