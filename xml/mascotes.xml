@@ -140,4 +140,345 @@
       </visita>
     </visites-mascota>
   </mascota>
+
+  <mascota id-mascota="m103" sexe="femella" tipus-de-cabell="curt">
+    <xip-mascota>981098103334455</xip-mascota>
+    <data-naixement>2022-06-18</data-naixement>
+    <te-pedigri>false</te-pedigri>
+    <pes-mascota>18.2</pes-mascota>
+    <nom-mascota>Nala</nom-mascota>
+    <color-mascota>Daurat</color-mascota>
+    <foto-mascota>nala_dog.jpg</foto-mascota>
+    <vacunes-mascota>
+      <vacuna id-mascota-vacunada="m103" laboratori="Zoetis">
+        <nom-vacuna>Ràbia</nom-vacuna>
+        <data-anterior-administracio>2025-03-12</data-anterior-administracio>
+        <data-propera-administracio>2026-03-12</data-propera-administracio>
+      </vacuna>
+    </vacunes-mascota>
+    <visites-mascota>
+      <visita id-mascota-visitada="m103">
+        <data-visita>2025-09-12</data-visita>
+        <motiu-consulta>Coixesa a la pota posterior dreta</motiu-consulta>
+        <diagnostic>S'observa una coixesa lleu a la pota posterior dreta, probablement causada per una contusió. No presenta fractures ni lesions greus.</diagnostic>
+        <tractament>Repòs durant cinc dies i evitar salts o activitats físiques intenses.</tractament>
+        <data-alta>2025-09-17</data-alta>
+      </visita>
+    </visites-mascota>
+    <propietari-mascota>
+      <nom-propietari>Marta</nom-propietari>
+      <cognom-propietari>Fernández López</cognom-propietari>
+      <adreca>Carrer de Sants, 82, 08014 Barcelona</adreca>
+      <email>marta.fernandez@email.com</email>
+      <telefons>
+        <telefon>623456789</telefon>
+        <telefon>934567812</telefon>
+      </telefons>
+    </propietari-mascota>
+  </mascota>
+
+  <mascota id-mascota="m104" sexe="mascle" tipus-de-cabell="arrissat">
+    <xip-mascota>981098104445566</xip-mascota>
+    <data-naixement>2019-11-03</data-naixement>
+    <te-pedigri>true</te-pedigri>
+    <pes-mascota>32.4</pes-mascota>
+    <nom-mascota>Rocky</nom-mascota>
+    <color-mascota>Marró</color-mascota>
+    <foto-mascota>rocky_dog.jpg</foto-mascota>
+    <vacunes-mascota>
+      <vacuna id-mascota-vacunada="m104" laboratori="Virbac">
+        <nom-vacuna>Polivalent canina</nom-vacuna>
+        <data-anterior-administracio>2025-04-08</data-anterior-administracio>
+        <data-propera-administracio>2026-04-08</data-propera-administracio>
+      </vacuna>
+    </vacunes-mascota>
+    <visites-mascota>
+      <visita id-mascota-visitada="m104">
+        <data-visita>2025-10-03</data-visita>
+        <motiu-consulta>Revisió per picor i irritació de la pell</motiu-consulta>
+        <diagnostic>Presenta una dermatitis lleu a la zona abdominal, amb envermelliment i picor. No s'observen ferides obertes ni signes d'infecció.</diagnostic>
+        <tractament>Aplicació d'un xampú dermatològic i revisió de la pell al cap de dues setmanes.</tractament>
+        <data-alta>2025-10-17</data-alta>
+      </visita>
+    </visites-mascota>
+    <propietari-mascota>
+      <nom-propietari>Pere</nom-propietari>
+      <cognom-propietari>Martí Solà</cognom-propietari>
+      <adreca>Carrer Nou, 12, 08301 Mataró</adreca>
+      <email>pere.marti@email.com</email>
+      <telefons>
+        <telefon>611223344</telefon>
+      </telefons>
+    </propietari-mascota>
+  </mascota>
+
+  <mascota id-mascota="m105" sexe="femella" tipus-de-cabell="llarg">
+    <xip-mascota>981098105556677</xip-mascota>
+    <data-naixement>2024-02-12</data-naixement>
+    <te-pedigri>false</te-pedigri>
+    <pes-mascota>3.8</pes-mascota>
+    <nom-mascota>Mimi</nom-mascota>
+    <color-mascota>Blanc i gris</color-mascota>
+    <foto-mascota>mimi_cat.jpg</foto-mascota>
+    <vacunes-mascota>
+      <vacuna id-mascota-vacunada="m105" laboratori="Boehringer Ingelheim">
+        <nom-vacuna>Trivalent felina</nom-vacuna>
+        <data-anterior-administracio>2025-05-20</data-anterior-administracio>
+        <data-propera-administracio>2026-05-20</data-propera-administracio>
+      </vacuna>
+    </vacunes-mascota>
+    <visites-mascota>
+      <visita id-mascota-visitada="m105">
+        <data-visita>2025-10-15</data-visita>
+        <motiu-consulta>Pèrdua de gana i vòmits</motiu-consulta>
+        <diagnostic>Presenta episodis puntuals de vòmits i una disminució de la gana durant les darreres 24 hores. Es detecta una lleu deshidratació.</diagnostic>
+        <tractament>Dieta gastrointestinal en petites quantitats i control de la hidratació durant les pròximes 48 hores.</tractament>
+        <data-alta>-</data-alta>
+      </visita>
+    </visites-mascota>
+    <propietari-mascota>
+      <nom-propietari>Anna</nom-propietari>
+      <cognom-propietari>Rovira Casas</cognom-propietari>
+      <adreca>Avinguda Catalunya, 45, 08290 Cerdanyola del Vallès</adreca>
+      <email>anna.rovira@email.com</email>
+      <telefons>
+        <telefon>655112233</telefon>
+        <telefon>931234567</telefon>
+        <telefon>644556677</telefon>
+      </telefons>
+    </propietari-mascota>
+  </mascota>
+
+  <mascota id-mascota="m106" sexe="mascle" tipus-de-cabell="curt">
+    <xip-mascota>981098106667788</xip-mascota>
+    <data-naixement>2021-08-25</data-naixement>
+    <te-pedigri>false</te-pedigri>
+    <pes-mascota>12.6</pes-mascota>
+    <nom-mascota>Toby</nom-mascota>
+    <color-mascota>Negre</color-mascota>
+    <foto-mascota>toby_dog.jpg</foto-mascota>
+    <vacunes-mascota>
+      <vacuna id-mascota-vacunada="m106" laboratori="MSD Animal Health">
+        <nom-vacuna>Tos de les gosseres</nom-vacuna>
+        <data-anterior-administracio>2025-06-14</data-anterior-administracio>
+        <data-propera-administracio>2026-06-14</data-propera-administracio>
+      </vacuna>
+    </vacunes-mascota>
+    <visites-mascota>
+      <visita id-mascota-visitada="m106">
+        <data-visita>2025-10-21</data-visita>
+        <motiu-consulta>Revisió general</motiu-consulta>
+        <diagnostic>L'animal presenta un bon estat general de salut. La temperatura, la freqüència cardíaca i la respiració es troben dins dels valors normals.</diagnostic>
+        <tractament>No necessita cap tractament. Es recomana mantenir les revisions veterinàries periòdiques.</tractament>
+        <data-alta>2025-10-21</data-alta>
+      </visita>
+    </visites-mascota>
+  </mascota>
+
+  <mascota id-mascota="m107" sexe="mascle" tipus-de-cabell="arrissat">
+    <xip-mascota>981098107778899</xip-mascota>
+    <data-naixement>2026-02-09</data-naixement>
+    <te-pedigri>true</te-pedigri>
+    <pes-mascota>5.1</pes-mascota>
+    <nom-mascota>Coco</nom-mascota>
+    <color-mascota>Blanc i marró</color-mascota>
+    <foto-mascota>coco_dog.jpg</foto-mascota>
+    <vacunes-mascota>
+      <vacuna id-mascota-vacunada="m107" laboratori="Zoetis">
+        <nom-vacuna>Polivalent canina</nom-vacuna>
+        <data-anterior-administracio>2026-04-03</data-anterior-administracio>
+        <data-propera-administracio>2027-04-03</data-propera-administracio>
+      </vacuna>
+    </vacunes-mascota>
+    <visites-mascota>
+      <visita id-mascota-visitada="m107">
+        <data-visita>2026-05-02</data-visita>
+        <motiu-consulta>Infecció d'oïda</motiu-consulta>
+        <diagnostic>S'observa una otitis externa a l'orella esquerra, amb acumulació de cerumen i inflamació. No hi ha indicis d'afectació de l'oïda interna.</diagnostic>
+        <tractament>Neteja auricular i aplicació de gotes específiques durant set dies.</tractament>
+        <data-alta>2026-05-09</data-alta>
+      </visita>
+    </visites-mascota>
+    <propietari-mascota>
+      <nom-propietari>Clara</nom-propietari>
+      <cognom-propietari>Pujol Riera</cognom-propietari>
+      <adreca>Carrer Major, 28, 08100 Mollet del Vallès</adreca>
+      <email>clara.pujol@email.com</email>
+      <telefons>
+        <telefon>622334455</telefon>
+        <telefon>935556677</telefon>
+      </telefons>
+    </propietari-mascota>
+  </mascota>
+
+  <mascota id-mascota="m108" sexe="femella" tipus-de-cabell="curt">
+    <xip-mascota>981098108889900</xip-mascota>
+    <data-naixement>2020-12-30</data-naixement>
+    <te-pedigri>false</te-pedigri>
+    <pes-mascota>24.7</pes-mascota>
+    <nom-mascota>Kira</nom-mascota>
+    <color-mascota>Gris</color-mascota>
+    <foto-mascota>kira_dog.jpg</foto-mascota>
+    <vacunes-mascota>
+      <vacuna id-mascota-vacunada="m108" laboratori="Virbac">
+        <nom-vacuna>Ràbia</nom-vacuna>
+        <data-anterior-administracio>2025-08-19</data-anterior-administracio>
+        <data-propera-administracio>2026-08-19</data-propera-administracio>
+      </vacuna>
+    </vacunes-mascota>
+    <visites-mascota>
+      <visita id-mascota-visitada="m108">
+        <data-visita>2025-11-10</data-visita>
+        <motiu-consulta>Control del pes</motiu-consulta>
+        <diagnostic>S'ha detectat un augment de pes respecte a l'última revisió. L'animal presenta sobrepès lleu, però no mostra altres alteracions destacables.</diagnostic>
+        <tractament>Ajustar les racions diàries d'aliment i augmentar progressivament l'activitat física.</tractament>
+        <data-alta>2025-11-10</data-alta>
+      </visita>
+    </visites-mascota>
+    <propietari-mascota>
+      <nom-propietari>David</nom-propietari>
+      <cognom-propietari>Navarro Ruiz</cognom-propietari>
+      <adreca>Avinguda del Parc, 17, 08940 Cornellà de Llobregat</adreca>
+      <email>david.navarro@email.com</email>
+      <telefons>
+        <telefon>633445566</telefon>
+        <telefon>644778899</telefon>
+        <telefon>932223344</telefon>
+      </telefons>
+    </propietari-mascota>
+  </mascota>
+
+  <mascota id-mascota="m109" sexe="mascle" tipus-de-cabell="llarg">
+    <xip-mascota>981098109990011</xip-mascota>
+    <data-naixement>2022-09-14</data-naixement>
+    <te-pedigri>false</te-pedigri>
+    <pes-mascota>6.3</pes-mascota>
+    <nom-mascota>Simba</nom-mascota>
+    <color-mascota>Taronja</color-mascota>
+    <foto-mascota>simba_cat.jpg</foto-mascota>
+    <vacunes-mascota>
+      <vacuna id-mascota-vacunada="m109" laboratori="Boehringer Ingelheim">
+        <nom-vacuna>Trivalent felina</nom-vacuna>
+        <data-anterior-administracio>2025-09-10</data-anterior-administracio>
+        <data-propera-administracio>2026-09-10</data-propera-administracio>
+      </vacuna>
+    </vacunes-mascota>
+    <visites-mascota>
+      <visita id-mascota-visitada="m109">
+        <data-visita>2025-11-18</data-visita>
+        <motiu-consulta>Revisió per esternuts freqüents</motiu-consulta>
+        <diagnostic>Presenta esternuts freqüents i una lleu secreció nasal transparent. No s'observen dificultats respiratòries ni febre.</diagnostic>
+        <tractament>Mantenir l'animal en un ambient ventilat i controlar l'evolució dels símptomes durant tres dies.</tractament>
+        <data-alta>-</data-alta>
+      </visita>
+    </visites-mascota>
+  </mascota>
+
+  <mascota id-mascota="m110" sexe="femella" tipus-de-cabell="curt">
+    <xip-mascota>981098110001122</xip-mascota>
+    <data-naixement>2021-03-07</data-naixement>
+    <te-pedigri>true</te-pedigri>
+    <pes-mascota>9.8</pes-mascota>
+    <nom-mascota>Lola</nom-mascota>
+    <color-mascota>Tricolor</color-mascota>
+    <foto-mascota>lola_dog.jpg</foto-mascota>
+    <vacunes-mascota>
+      <vacuna id-mascota-vacunada="m110" laboratori="MSD Animal Health">
+        <nom-vacuna>Polivalent canina</nom-vacuna>
+        <data-anterior-administracio>2025-10-05</data-anterior-administracio>
+        <data-propera-administracio>2026-10-05</data-propera-administracio>
+      </vacuna>
+    </vacunes-mascota>
+    <visites-mascota>
+      <visita id-mascota-visitada="m110">
+        <data-visita>2025-12-01</data-visita>
+        <motiu-consulta>Revisió dental</motiu-consulta>
+        <diagnostic>S'observa una acumulació moderada de placa dental i una lleu inflamació de les genives. No es detecten peces dentals trencades.</diagnostic>
+        <tractament>Neteja dental i introducció progressiva d'una rutina d'higiene bucal.</tractament>
+        <data-alta>2025-12-01</data-alta>
+      </visita>
+    </visites-mascota>
+    <propietari-mascota>
+      <nom-propietari>Oriol</nom-propietari>
+      <cognom-propietari>Costa Vila</cognom-propietari>
+      <adreca>Carrer de Girona, 56, 08009 Barcelona</adreca>
+      <email>oriol.costa@email.com</email>
+      <telefons>
+        <telefon>699112233</telefon>
+        <telefon>931112233</telefon>
+      </telefons>
+    </propietari-mascota>
+  </mascota>
+
+  <mascota id-mascota="m111" sexe="mascle" tipus-de-cabell="arrissat">
+    <xip-mascota>981098111112233</xip-mascota>
+    <data-naixement>2018-07-21</data-naixement>
+    <te-pedigri>false</te-pedigri>
+    <pes-mascota>27.3</pes-mascota>
+    <nom-mascota>Bobby</nom-mascota>
+    <color-mascota>Beix</color-mascota>
+    <foto-mascota>bobby_dog.jpg</foto-mascota>
+    <vacunes-mascota>
+      <vacuna id-mascota-vacunada="m111">
+        <nom-vacuna>Ràbia</nom-vacuna>
+        <data-anterior-administracio>2025-11-16</data-anterior-administracio>
+        <data-propera-administracio>2026-11-16</data-propera-administracio>
+      </vacuna>
+    </vacunes-mascota>
+    <visites-mascota>
+      <visita id-mascota-visitada="m111">
+        <data-visita>2025-12-09</data-visita>
+        <motiu-consulta>Ferida superficial a la pota</motiu-consulta>
+        <diagnostic>Presenta una ferida superficial al coixinet de la pota davantera esquerra. La lesió no és profunda i no hi ha signes d'infecció.</diagnostic>
+        <tractament>Neteja i desinfecció de la ferida, amb revisió diària fins a la seva cicatrització.</tractament>
+        <data-alta>2025-12-14</data-alta>
+      </visita>
+    </visites-mascota>
+    <propietari-mascota>
+      <nom-propietari>Núria</nom-propietari>
+      <cognom-propietari>Sánchez Prat</cognom-propietari>
+      <adreca>Passeig del Mar, 21, 08350 Arenys de Mar</adreca>
+      <email>nuriasanchez@email.com</email>
+      <telefons>
+        <telefon>644332211</telefon>
+        <telefon>655443322</telefon>
+        <telefon>933221100</telefon>
+      </telefons>
+    </propietari-mascota>
+  </mascota>
+
+  <mascota id-mascota="m112" sexe="femella" tipus-de-cabell="llarg">
+    <xip-mascota>981098112223344</xip-mascota>
+    <data-naixement>2026-05-16</data-naixement>
+    <te-pedigri>false</te-pedigri>
+    <pes-mascota>2.4</pes-mascota>
+    <nom-mascota>Lia</nom-mascota>
+    <color-mascota>Negre i blanc</color-mascota>
+    <foto-mascota>lia_cat.jpg</foto-mascota>
+    <vacunes-mascota>
+      <vacuna id-mascota-vacunada="m112">
+        <nom-vacuna>Trivalent felina</nom-vacuna>
+        <data-anterior-administracio>2026-07-02</data-anterior-administracio>
+      </vacuna>
+    </vacunes-mascota>
+    <visites-mascota>
+      <visita id-mascota-visitada="m112">
+        <data-visita>2026-08-15</data-visita>
+        <motiu-consulta>Diarrea i molèsties intestinals</motiu-consulta>
+        <diagnostic>Presenta deposicions toves i diarrea intermitent des de fa dos dies. No s'observen signes de deshidratació ni altres alteracions importants.</diagnostic>
+        <tractament>Dieta intestinal de fàcil digestió i seguiment de les deposicions durant les pròximes 48 hores.</tractament>
+        <data-alta>-</data-alta>
+      </visita>
+    </visites-mascota>
+    <propietari-mascota>
+      <nom-propietari>Arnau</nom-propietari>
+      <cognom-propietari>Gil Moreno</cognom-propietari>
+      <adreca>Carrer de la Pau, 33, 08221 Terrassa</adreca>
+      <email>arnau.gil@email.com</email>
+      <telefons>
+        <telefon>677123456</telefon>
+      </telefons>
+    </propietari-mascota>
+  </mascota>
+
 </mascotes>

@@ -29,9 +29,21 @@
     <main>
         <h2>Troba el teu nou company de vida</h2>
         <p>Cada un dels nostres peluts té la seva pròpia història, ritme i personalitat. Pren-te el teu temps per conèixer-los: potser la mirada que busques t'està esperant aquí.</p>
-        <div id="adopt-animals-container">
+        <section id="filter-container">
+            <label for="animal-filter">Filtra per categoria:</label>
+            <select id="animal-filter" name="animal-filter">
+                <option value="all" selected>Tots</option>
+                <option value="dog">Gossos</option>
+                <option value="cat">Gats</option>
+                <option value="senior">Sèniors</option>
+                <option value="young">Cadells</option>
+            </select>
+        </section>
 
-        </div>
+        <section id="adopt-animals-container">
+            
+        </section>
+
         <section id="adopt-animals">
             <h2>Com adoptem a Nous Colls?</h2>
             <h3>Un procés senzill i responsable</h3>
@@ -79,5 +91,6 @@
            <p><a href="https://www.youtube.com/watch?v=hvL1339luv0" target="_blank" rel="noopener noreferrer">Avís legal</a> · <a href="https://www.youtube.com/watch?v=7NPdVpx5CgE" target="_blank" rel="noopener noreferrer">Política de privacitat</a> · <a href="https://www.youtube.com/watch?v=J---aiyznGQ" target="_blank" rel="noopener noreferrer">Política de galetes</a></p>
         </div>
     </footer>
+    <script src="../js/adopt.js"></script>
 </body>
 </html>

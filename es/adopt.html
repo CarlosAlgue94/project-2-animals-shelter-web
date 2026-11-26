@@ -29,9 +29,21 @@
     <main>
         <h2>Encuentra a tu nuevo compañero de vida</h2>
         <p>Cada uno de nuestros peludos tiene su propia historia, ritmo y personalidad. Tómate tu tiempo para conocerlos: quizá la mirada que buscas te esté esperando aquí.</p>
-        <div id="adopt-animals-container">
+        <section id="filter-container">
+            <label for="animal-filter">Filtrar por categoría:</label>
+            <select id="animal-filter" name="animal-filter">
+                <option value="all" selected>Todos</option>
+                <option value="dog">Perros</option>
+                <option value="cat">Gatos</option>
+                <option value="senior">Seniors</option>
+                <option value="young">Cachorros</option>
+            </select>
+        </section>
 
-        </div>
+        <section id="adopt-animals-container">
+            
+        </section>
+        
         <section id="adopt-animals">
             <h2>¿Cómo adoptamos en Nous Colls?</h2>
             <h3>Un proceso sencillo y responsable</h3>
@@ -79,5 +91,6 @@
            <p><a href="https://www.youtube.com/watch?v=hvL1339luv0" target="_blank" rel="noopener noreferrer">Aviso legal</a> · <a href="https://www.youtube.com/watch?v=7NPdVpx5CgE" target="_blank" rel="noopener noreferrer">Política de privacidad</a> · <a href="https://www.youtube.com/watch?v=J---aiyznGQ" target="_blank" rel="noopener noreferrer">Política de cookies</a></p>
         </div>
     </footer>
+    <script src="../js/adopt.js"></script>
 </body>
 </html>

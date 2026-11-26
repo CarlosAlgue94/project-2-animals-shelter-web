@@ -29,9 +29,21 @@
     <main>
         <h2>Meet your new life companion</h2>
         <p>Every one of our furry friends has their own story, pace, and personality. Take your time getting to know them—the gaze you are looking for might be waiting right here.</p>
-        <div id="adopt-animals-container">
+        <section id="filter-container">
+            <label for="animal-filter">Filter by category:</label>
+            <select id="animal-filter" name="animal-filter">
+                <option value="all" selected>All</option>
+                <option value="dog">Dogs</option>
+                <option value="cat">Cats</option>
+                <option value="senior">Seniors</option>
+                <option value="young">Puppies & Kittens</option>
+            </select>
+        </section>
 
-        </div>
+        <section id="adopt-animals-container">
+            
+        </section>
+
         <section id="adopt-animals">
             <h2>How does adoption work at Nous Colls?</h2>
             <h3>A simple and responsible process</h3>
@@ -79,5 +91,6 @@
            <p><a href="https://www.youtube.com/watch?v=hvL1339luv0" target="_blank" rel="noopener noreferrer">Legal notice</a> · <a href="https://www.youtube.com/watch?v=7NPdVpx5CgE" target="_blank" rel="noopener noreferrer">Privacy policy</a> · <a href="https://www.youtube.com/watch?v=J---aiyznGQ" target="_blank" rel="noopener noreferrer">Cookie policy</a></p>
         </div>
     </footer>
+    <script src="js/adopt.js"></script>
 </body>
 </html>
